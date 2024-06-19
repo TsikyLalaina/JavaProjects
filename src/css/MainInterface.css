@@ -1,0 +1,273 @@
+.root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-background-color: #fff;
+}
+
+.button {
+    -fx-background-color: #09c;
+    -fx-text-fill: white;
+    -fx-border-color: #08b;
+    -fx-border-radius: 5;
+}
+.top-container{
+    -fx-padding: 10px;
+}
+.label {
+    -fx-text-fill: #333;
+}
+.header-container {
+    -fx-alignment: center;
+    -fx-background-color: #fff; /* Set your desired background color */
+    -fx-padding: 10px;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333; /* Set your desired text color */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Add shadow effect */
+    -fx-pref-width: 100%; /* Ensure it spans the full width */
+    -fx-background-radius: 10px;
+}
+.text-field {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
+.window-controls {
+    -fx-background-color: transparent; /* Set background to transparent */
+    -fx-alignment: center-right; /* Align to the right */
+}
+.window-controls .button {
+    -fx-background-color: transparent; /* Set button background to transparent */
+    -fx-text-fill: #333; /* Set text color to match existing styling */
+    -fx-border-color: transparent; /* Remove borders */
+}
+
+/* Hover effect for buttons */
+.window-controls .button:hover {
+    -fx-background-color: #cecece; /* Lighter shade for hover effect */
+}
+.menu-bar {
+    -fx-background-color: #fff;
+    -fx-height: 50px;
+}
+.menu {
+    -fx-text-fill: #333;
+    -fx-background-color: #fff;
+}
+.menu-bar .menu:hover, .menu-bar .menu:focused, .menu-bar .menu:showing {
+    -fx-background-color: #cecece;
+}
+.menu-bar .menu .menu-item:hover {
+    -fx-background-color: #cecece; /* Lighter shade of the menu bar color */
+}
+
+.menu-bar .menu .menu-item:focused {
+    -fx-background-color: #cecece; /* Same as hover for consistency */
+}
+/* Window control buttons styling */
+.window-controls .button {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-padding: 5px; /* Padding around the button */
+}
+
+.window-controls .button:hover {
+    -fx-background-color: #ececec; /* Color for hover effect */
+}
+
+/* Spacing between buttons */
+.window-controls {
+    -fx-spacing: 18px; /* Spacing between buttons */
+}
+.demographic-chart, .pie-chart, .list-view, .table-view {
+    -fx-background-color: #fff; /* Set your desired background color */
+    -fx-padding: 10px;
+    -fx-border-radius: 15px; /* Rounded corners like the header */
+    -fx-background-radius: 15px; /* Rounded corners like the header */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+/* Sidebar styling */
+.navigation-panel {
+    -fx-background-color: #39424e;
+    -fx-padding: 10px;
+    -fx-spacing: 8px; /* Adjust spacing between buttons */
+    -fx-alignment: top-center;
+}
+.navigation-panel .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px; /* Adjust button width */
+    -fx-pref-height: 40px; /* Adjust button height */
+    -fx-text-alignment: center;
+}
+
+.navigation-panel .button:hover {
+    -fx-background-color: #4e5a65;
+}
+
+.navigation-panel .button:focused, .navigation-panel .button:default {
+    -fx-background-color: #4e5a65;
+}
+
+/* Dashboard styling */
+.dashboard {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.dashboard .label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.card {
+    -fx-padding: 15px;
+    -fx-alignment: center;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-min-width: 170px; /* Set a minimum width */
+    -fx-min-height: 100px; /* Set a minimum height */
+    -fx-max-width: 200px; /* Set a maximum width */
+    -fx-max-height: 100px; /* Set a maximum height */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.card:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10); /* Elevation effect */
+}
+.card-title {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.card-value {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+.total-population-card {
+    -fx-background-color: #7f8c8d; /* Concrete color */
+}
+
+.growth-rate-card {
+    -fx-background-color: #3498db; /* Peter River color */
+}
+
+.growth-rate-card{
+    -fx-background-color: #2ecc71; /* Emerald color */
+}
+
+.average-age-card {
+    -fx-background-color: #f1c40f; /* Sunflower color */
+}
+
+.mediane-age-card {
+    -fx-background-color: #e74c3c; /* Alizarin color */
+}
+
+.migration-rate-card {
+    -fx-background-color: #9b59b6; /* Amethyst color */
+}
+.grid-pane{
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 50px;
+}
+.data-entry-layout {
+    -fx-background-color: #fff;
+    -fx-padding: 25px;
+    -fx-border-radius: 15px; 
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+    /*-fx-pref-width: 100%;*/
+}
+/* Label styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #5a5a5a;
+}
+
+/* Dropdown and text field styling */
+.region-dropdown, .population-field, .age-group-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-prompt-text-fill: #a8a8a8; /* Light grey prompt text */
+    -fx-pref-height: 50px;
+}
+
+/* Submit button styling */
+.submit-button {
+    -fx-background-color: #0d47a1; /* Deep blue background */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.submit-button:hover {
+    -fx-background-color: #1565c0; /* Slightly lighter blue on hover */
+}
+
+/* Focus state for text fields and dropdowns */
+.region-dropdown:focused, .population-field:focused, .age-group-field:focused {
+    -fx-border-color: #0d47a1; /* Deep blue border to indicate focus */
+}
+.scroll-pane {
+    -fx-background-color: #f8f8f8; /* Light grey background that matches the form */
+    -fx-border-color: #e1e1e1; /* Light grey border for definition */
+    -fx-border-radius: 10px; /* Rounded corners for the scroll pane */
+    -fx-width: 10px;
+}
+
+/* Scroll bar track styling */
+.scroll-pane .scroll-bar:vertical .track,
+.scroll-pane .scroll-bar:horizontal .track {
+    -fx-background-color: #ffffff; /* White track background */
+    -fx-border-color: transparent; /* No borders for the track */
+}
+
+/* Scroll bar thumb styling */
+.scroll-pane .scroll-bar:vertical .thumb,
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: #b0b0b0; /* Darker grey for the thumb for contrast */
+    -fx-background-insets: 2, 2, 2; /* Insets for thumb */
+    -fx-background-radius: 5em; /* Rounded thumb */
+}
+
+/* Scroll bar thumb hover styling */
+.scroll-pane .scroll-bar:vertical .thumb:hover,
+.scroll-pane .scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #9e9e9e; /* Slightly darker grey when hovered */
+}
+
+/* Scroll bar buttons styling */
+.scroll-pane .scroll-bar:vertical .increment-button,
+.scroll-pane .scroll-bar:vertical .decrement-button,
+.scroll-pane .scroll-bar:horizontal .increment-button,
+.scroll-pane .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: #f8f8f8; /* Light grey background to match the scroll pane */
+}
+
+/* Scroll bar buttons hover styling */
+.scroll-pane .scroll-bar:vertical .increment-button:hover,
+.scroll-pane .scroll-bar:vertical .decrement-button:hover,
+.scroll-pane .scroll-bar:horizontal .increment-button:hover,
+.scroll-pane .scroll-bar:horizontal .decrement-button:hover {
+    -fx-background-color: #e1e1e1; /* Slightly darker grey when hovered */
+}
+.notification-bar > .pane {
+    -fx-padding: 10px !important;
+    -fx-background-radius: 15px !important;
+    -fx-font-size: 14px !important;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0, 0, 0) !important;
+    -fx-background-color: #fff !important;
+}

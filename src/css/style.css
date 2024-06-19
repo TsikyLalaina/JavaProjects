@@ -1,0 +1,51 @@
+/* style.css */
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #F3F3F3;
+}
+
+.grid {
+    -fx-background-color: white;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 10);
+}
+
+#headerLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-alignment: center;
+    -fx-padding: 20 0 20 0;
+}
+
+.label {
+    -fx-font-size: 16px;
+}
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 350px;
+    -fx-pref-height: 40px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 5;
+    -fx-padding: 10 10 10 40;
+}
+.button {
+    -fx-background-color: #39424e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 100px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #4e5a65;
+}
+#footerLabel {
+    -fx-font-size: 10px;
+    -fx-text-fill: #666666;
+    -fx-alignment: center;
+}
